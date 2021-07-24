@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap');
+html {
+    margin: 0;
+    padding: 0;
+}
+.music2{
+    
+    position: absolute;
+    bottom: -655px;
+    outline: none;
+    border: none;
+    font-size: 5px;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+#fullscreenImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: "Encode Sans SC";
+    font-weight: 900;
+    font-size: 1.17em;
+    transition: 0.2s all;
+}
+#fullscreenImg:active {
+    transform: scale(0.88);
+    
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    text-align: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.fullscreen-bg #quote {
+    font-weight: 200;
+    font-size: 50px;
+    color: white;
+    font-family: "Encode Sans SC";
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+}
+
+audio{
+    z-index: 1000;
+    position: absolute;
+    bottom: 0;
+    outline: none;
+    border: none;
+    font-size: 5px;
+    width: 400px;
+    height: 40px; 
+    margin-bottom: 5px;
+}
+#time{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    font-family: "Encode Sans SC";
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+    
+}
+
+.soundcloud{
+    position: absolute;
+    top: 0;
+    margin-top: 5px;
+    padding: 10px 20px;
+    color: black;
+    background-color: white;
+    font-family: "Encode Sans SC";
+    font-size: 1.17em;
+    border: none;
+    border-radius: 20px;
+    transition: 0.2s all;
+    font-weight: 900;
+}
+.soundcloud:active {
+    transform: scale(0.88);
+    
+
+}
+@media all and (max-width: 400px) {
+    .fullscreen-bg #quote {
+        font-weight: 200;
+        font-size: 35px;
+        color: white;
+        font-family: "Encode Sans SC";
+    }
+}
