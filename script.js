@@ -79,8 +79,7 @@ function getRandomSentence() {
     document.getElementById("time").innerHTML = currentTime;
   }, 1000);
 
-let music_btn = document.getElementById("soundcloud");
-music_btn.addEventListener("click", Dropdown);
+
 function Dropdown(){
   var music = document.getElementById("music2");
   

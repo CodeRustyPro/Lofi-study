@@ -15,7 +15,11 @@ html {
     border-radius: 10px;
     margin-bottom: 10px;
 }
-
+button:focus{
+    border:none;
+    outline:none;
+}
+    
 
 #fullscreenImg{
     position: absolute;
