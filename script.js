@@ -79,7 +79,7 @@ function getRandomSentence() {
     document.getElementById("time").innerHTML = currentTime;
   }, 1000);
 
-
+/*
 function Dropdown(){
   var music = document.getElementById("music2");
   
@@ -91,3 +91,4 @@ function Dropdown(){
   }
 
 }
+*/
